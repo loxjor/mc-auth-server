@@ -54,6 +54,6 @@ app.get('/skins/:file', (_req, res) => {
 
 app.use((_req, res) => res.status(404).json({ error: 'Not found' }))
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`\n✅ Auth server running at http://${HOST}\n`)
 })
