@@ -1,0 +1,24 @@
+node_modules/
+
+# Runtime data — generated on first run
+data/
+
+# Private RSA keys
+*.pem
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
